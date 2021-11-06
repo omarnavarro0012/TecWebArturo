@@ -1,0 +1,95 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*min-width: 400px;*/
+}
+
+.infoper{
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;;
+    background-color: #fff1e9;
+}
+
+header .logo h1{
+    margin-left: 10px;
+    color: brown;
+    text-align: center;
+}
+
+header .logo{
+    justify-self: center;
+    flex-grow: 1;
+}
+
+header .menu{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    flex-grow: 2;
+}
+
+header .menu nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
+
+header .menu nav li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;  
+}
+
+
+header .imagen{
+    justify-self: flex-start;
+    flex-grow: 0;
+}
+
+header .menu nav li a:hover{
+    color: red;
+}
+
+.General{
+    background-image: url(../Imagenes_del_Proyecto/postre5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contenido{
+    margin: 0%;
+    width: 450px;
+    height: 300px;
+}
+
+.contenido .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: lightcoral;
+}
+
+.contenido h1{
+    color:palevioletred;
+}
+
+tbody td{
+    border-bottom: navajowhite dotted 3px;
+}
+
+thead th{
+    border-bottom: magenta double 5px;
+}
